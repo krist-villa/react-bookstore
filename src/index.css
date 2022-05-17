@@ -5,8 +5,8 @@ body {
 
 h5 {
   color: white;
-  left-margin: 0.1rem;
 }
+
 
 h1, 
 h2,
@@ -24,13 +24,14 @@ h2{
 h3{
   font-size: 1rem;
   color: whitesmoke;
+  padding-right: 1rem;
 }
 a {
   text-decoration: none;
   color: #EEE2DC;
 }
 .row {
-  display: flex;
+  display:flex;
   justify-content: space-between;
 }
 .col-1{
@@ -41,7 +42,7 @@ a {
 }
 .block {
   background-color: #AC3B61;
-  padding: 1rem;
+  padding: 2rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
 }
@@ -54,13 +55,13 @@ img.small{
 }
 
 button {
-  font-size: 0.8rem;
-  padding: 0.2rem;
+  font-size: 1rem;
+  padding: 0.5rem;
   margin: 0.1rem;
   border-radius: 0.8rem;
   border: 0.1rem;
   background-color: burlywood;
-  width: 80%;
+  width: 10rem;
   cursor: pointer;
 }
 
@@ -87,5 +88,5 @@ text-right{
 
 .cart-empty{
   max-height: 10rem;
-  margin-left: 1.3rem;
+  margin-left: 1rem;
 }

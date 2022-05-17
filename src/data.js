@@ -2,7 +2,7 @@ const data = {
     books: [
         {
             id: '1',
-            title: 'splashing through deep puddles',
+            title: 'splashing through...',
             price: '4.99',
             image: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1591038958l/53746384._SY475_.jpg',
         },
