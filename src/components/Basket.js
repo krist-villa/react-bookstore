@@ -5,9 +5,9 @@ export default function Basket(props){
     
     return (
         <aside className='block col-1'>
-            <h2>Your Cart</h2>
+            <h2>Books in your cart:</h2>
             <div>
-                {cartItems.length === 0 && <img className='cart-empty row' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQocqOPUkhOj2bI6HJMm2IJc8WVs70nXsB7XwTc_-qgj60It-mqlowYIVvRSiTx7ljrrIA&usqp=CAU' alt='cart is empty'/> }
+                {cartItems.length === 0 && <img className='cart-empty row' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzibBVD9w_go7Ofo5BK44_ufJf_y7qQAoPKg&usqp=CAU' alt='cart is empty'/>}
             </div>
 
             <div>
@@ -25,7 +25,6 @@ export default function Basket(props){
                                 <button className='add-remove' onClick={()=>onRemove(item)}><p>-</p></button>
                             </td>
                         </table>
-                        
                     </div>
                 </div>
             ))}
