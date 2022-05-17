@@ -7,6 +7,29 @@ h5 {
   color: white;
 }
 
+p {
+  color: white;
+}
+
+.cart-title{
+  color: white;
+  background-color: #5d001e;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.cart-item-details{
+  color: black;
+}
+
+.cart-table{
+  background-color: burlywood;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  width: 20rem;
+  height: 5rem;
+}
 
 h1, 
 h2,
@@ -32,7 +55,7 @@ a {
 }
 .row {
   display:flex;
-  justify-content: space-between;
+  justify-content:space-evenly;
 }
 .col-1{
   flex:1;
@@ -75,18 +98,17 @@ button.remove{
     width: 1.5rem;
 }
 
-button.badge{
-  background-color: AC3B61;
-  border: none;
-  color: white;
-  width: 1.5rem;
-}
-
 text-right{
   text-align: right;
 }
 
 .cart-empty{
   max-height: 10rem;
-  margin-left: 1rem;
+  margin-left: 40%;
+}
+
+.add-remove{
+  width: 4rem;
+  height: 4rem;
+  background-color: #5d001e;
 }
